@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instalador Node.js 22 - Bash Script</title>
+    <style>
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #161b22;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.6);
+        }
+        h1, h2, h3 {
+            color: #58a6ff;
+            text-align: center;
+        }
+        p, li {
+            line-height: 1.6;
+        }
+        code {
+            background-color: #21262d;
+            padding: 3px 6px;
+            border-radius: 6px;
+            color: #58a6ff;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        ul li::before {
+            content: "✔️ ";
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #8b949e;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #238636;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #2ea043;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Instalador Node.js 22.x</h1>
+        <h2>Para Ubuntu e Linux Mint</h2>
+
+        <div class="section">
+            <h3>🧠 Sobre este script</h3>
+            <p>Este é um script Bash que automatiza o processo de instalação do <strong>Node.js 22.x</strong> no Ubuntu ou Linux Mint. Ele cuida de todo o processo: atualização do sistema, configuração do repositório, instalação do Node.js, npm e opcionalmente o Yarn.</p>
+        </div>
+
+        <div class="section">
+            <h3>🔧 O que o script faz?</h3>
+            <ul>
+                <li>Pergunta se deseja atualizar o sistema.</li>
+                <li>Instala dependências como <code>curl</code>.</li>
+                <li>Adiciona o repositório oficial do Node.js 22.x.</li>
+                <li>Instala <code>node</code> e <code>npm</code>.</li>
+                <li>Mostra as versões instaladas.</li>
+                <li>Oferece a opção de instalar o <strong>Yarn</strong>.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h3>🛠️ Como usar</h3>
+            <p>1️⃣ Dê permissão ao script:</p>
+            <code>chmod +x instalar-node.sh</code>
+
+            <p>2️⃣ Execute o script:</p>
+            <code>./instalar-node.sh</code>
+
+            <p>3️⃣ Siga as instruções no terminal.</p>
+        </div>
+
+        <div class="section">
+            <h3>🔥 Tecnologias usadas</h3>
+            <p>✔️ Bash Script<br>
+            ✔️ NodeSource Repository<br>
+            ✔️ Curl</p>
+        </div>
+
+        <div class="section">
+            <h3>📝 Licença</h3>
+            <p>Este projeto está sob a licença <strong>MIT</strong>.</p>
+        </div>
+
+        <div class="section" style="text-align:center;">
+            <a href="https://github.com/seu-usuario/seu-repo" class="btn">🔗 Ver no GitHub</a>
+        </div>
+
+        <footer>
+            💻 Feito com ☕ + ❤️ por <a href="https://github.com/gregoriodelucca" target="_blank" style="color:#58a6ff;">gregoriodelucca</a>
+        </footer>
+    </div>
+</body>
+</html>
